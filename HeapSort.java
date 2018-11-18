@@ -98,7 +98,7 @@ private void sift_down(int x, int[] a) {
 	
 	while (true) {
 
-	if (2*x + 2 < a.length  && 2*x + 2 < a.length) {
+	if (2*x + 2 < a.length  && 2*x + 1 < a.length) {
 				
 		int temp = a[x];
 		int m = 2 * x + 2;
